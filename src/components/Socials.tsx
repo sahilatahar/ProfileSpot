@@ -17,7 +17,7 @@ const Socials: FC = () => {
 				className="flex flex-col items-center gap-2"
 				target="_blank"
 			>
-				<FiMail size={36} />
+				<FiMail className="w-6 h-6 sm:w-10 sm:h-10" />
 				<span className="font-semibold text-xs">Gmail</span>
 			</a>
 			<a
@@ -25,7 +25,7 @@ const Socials: FC = () => {
 				className="flex flex-col items-center gap-2"
 				target="_blank"
 			>
-				<FiLinkedin size={36} />
+				<FiLinkedin className="w-6 h-6 sm:w-10 sm:h-10" />
 				<span className="font-semibold text-xs">LinkedIn</span>
 			</a>
 			<a
@@ -33,7 +33,7 @@ const Socials: FC = () => {
 				className="flex flex-col items-center gap-2"
 				target="_blank"
 			>
-				<FiGithub size={36} />
+				<FiGithub className="w-6 h-6 sm:w-10 sm:h-10" />
 				<span className="font-semibold text-xs">GitHub</span>
 			</a>
 			<a
@@ -41,7 +41,7 @@ const Socials: FC = () => {
 				className="flex flex-col items-center gap-2"
 				target="_blank"
 			>
-				<FiInstagram size={36} />
+				<FiInstagram className="w-6 h-6 sm:w-10 sm:h-10" />
 				<span className="font-semibold text-xs">Instagram</span>
 			</a>
 			<a
@@ -49,7 +49,7 @@ const Socials: FC = () => {
 				className="flex flex-col items-center gap-2"
 				target="_blank"
 			>
-				<FiTwitter size={36} />
+				<FiTwitter className="w-6 h-6 sm:w-10 sm:h-10" />
 				<span className="font-semibold text-xs">Twitter</span>
 			</a>
 		</section>

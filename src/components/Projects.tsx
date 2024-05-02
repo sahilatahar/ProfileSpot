@@ -13,7 +13,7 @@ const Projects: FC = () => {
 				{projects.map((project, i) => (
 					<div
 						key={i}
-						className="bg-light-card border border-light-card-border p-6 aspect-video w-full sm:w-[350px] rounded-xl"
+						className="bg-light-card border border-light-card-border p-6 w-full sm:w-[350px] rounded-xl"
 					>
 						<h3 className="text-xl font-bold">{project.title}</h3>
 						<p className="pt-2 line-clamp-4">

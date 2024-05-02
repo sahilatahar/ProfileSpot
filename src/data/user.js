@@ -3,7 +3,6 @@ const userData = {
 	title: "Full Stack Web Developer",
 	bio: "Aspiring Full Stack Developer | Integrating Frontend Proficiency with Expanding Backend Knowledge | React JS, Node.js, Express | Seeking Opportunities",
 	avatar: "https://github.com/sahilatahar.png",
-	location: "San Francisco, CA",
 	interests: [
 		"Full Stack Development",
 		"MERN Development",
@@ -29,22 +28,6 @@ const userData = {
 		"Prettier",
 		"Markdown",
 	],
-	experience: [
-		{
-			title: "Web Developer Intern",
-			company: "Yhills - Edutech",
-			date: "April 2023 - May 2023",
-			duration: "2 months",
-			description: "",
-		},
-		{
-			title: "Software Developer Intern",
-			company: "Tech Startup",
-			date: "2017 - 2018",
-			description:
-				"I interned as a software developer at a tech startup in San Francisco. I worked on building new features for the company's web application and helped with bug fixes and code refactoring.",
-		},
-	],
 	projects: [
 		{
 			title: "Code-Sync",
@@ -68,6 +51,180 @@ const userData = {
 		github: "https://github.com/sahilatahar",
 		instagram: "https://instagram.com/sahilatahar",
 	},
+	links: [
+		{
+			category: "Cheat Sheets",
+			resources: [
+				{
+					title: "Awesome cheatsheets",
+					url: "https://lecoupa.github.io/awesome-cheatsheets/",
+				},
+				{
+					title: "Rico's cheatsheets",
+					url: "https://devhints.io/",
+				},
+				{
+					title: "Quick Reference",
+					url: "https://quickref.me/",
+				},
+				{
+					title: "OverAPI.com - Collecting All Cheat Sheets",
+					url: "https://overapi.com/",
+				},
+				{
+					title: "React TypeScript cheatsheets",
+					url: "https://react-typescript-cheatsheet.netlify.app/",
+				},
+			],
+		},
+		{
+			category: "Free Coding Resources",
+			resources: [
+				{
+					title: "Free for dev",
+					url: "https://free-for.dev/",
+				},
+				{
+					title: "Free hosting",
+					url: "https://github.com/cloudcommunity/Free-Hosting",
+				},
+				{
+					title: "Ultimate web development resources",
+					url: "https://github.com/DhanushNehru/Ultimate-Web-Development-Resources",
+				},
+				{
+					title: "Visualize web skills",
+					url: "https://github.com/andreasbm/web-skills",
+				},
+				{
+					title: "List of free stuff for developer",
+					url: "https://github.com/hilmanski/freeStuffDev",
+				},
+			],
+		},
+		{
+			category: "Coding Practice",
+			resources: [
+				{
+					title: "Frontend Mentor - Improve your coding skills by building realistic projects",
+					url: "https://www.frontendmentor.io",
+				},
+				{
+					title: "LeetCode - Practice coding interviews and algorithm problems",
+					url: "https://leetcode.com/",
+				},
+				{
+					title: "Become a Pro in Frontend Dev with FrontendPro.dev",
+					url: "https://www.frontendpro.dev/",
+				},
+				{
+					title: "Practice with Real Life Coding Projects - DevChallenges",
+					url: "https://devchallenges.io/",
+				},
+			],
+		},
+		{
+			category: "AI Tools",
+			resources: [
+				{
+					title: "ChatGPT - Conversational AI by OpenAI",
+					url: "https://chat.openai.com",
+				},
+				{
+					title: "Google's Gemini",
+					url: "https://www.gemini.org/",
+				},
+				{
+					title: "Chat with characters",
+					url: "https://character.ai/",
+				},
+			],
+		},
+		{
+			category: "Free APIs for Projects",
+			resources: [
+				{
+					title: "Public APIs - List of free public APIs",
+					url: "https://publicapis.dev/",
+				},
+				{
+					title: "Fake Store API - Fake store REST API for your e-commerce or shopping website",
+					url: "https://fakestoreapi.com/",
+				},
+				{
+					title: "OpenWeatherMap - Access current weather data for any location",
+					url: "https://openweathermap.org/api",
+				},
+				{
+					title: "The open movie database",
+					url: "https://www.omdbapi.com/",
+				},
+				{
+					title: "The screenshot API for developers",
+					url: "https://screenshotone.com/",
+				},
+			],
+		},
+		{
+			category: "Design Resources",
+			resources: [
+				{
+					title: "Free Website Figma Template",
+					url: "https://templatesjungle.com/downloads/category/free-figma-resources/",
+				},
+				{
+					title: "Free Design Resources",
+					url: "https://www.designermill.com/",
+				},
+				{
+					title: "Unsplash - Beautiful, free images and photos",
+					url: "https://unsplash.com/",
+				},
+				{
+					title: "Canva - Design anything. Publish anywhere.",
+					url: "https://www.canva.com/",
+				},
+				{
+					title: "Design resources for developers",
+					url: "https://github.com/bradtraversy/design-resources-for-developers",
+				},
+			],
+		},
+		{
+			category: "Programming Resources",
+			resources: [
+				{
+					title: "Programming Notes for Professionals books",
+					url: "https://goalkicker.com/",
+				},
+				{
+					title: "Programming E-Books by CodeWithCurious",
+					url: "https://codewithcurious.com/our-ebooks/",
+				},
+			],
+		},
+		{
+			category: "Free Image Generators",
+			resources: [
+				{
+					title: "Infinite image generation powered by AI",
+					url: "https://picfinder.ai/",
+				},
+				{
+					title: "Perchance - 100% free ai image generator",
+					url: "https://perchance.org/ai-photo-generator",
+				},
+				{
+					title: "Perchance - Pretty AI",
+					url: "https://perchance.org/pretty-ai",
+				},
+				{
+					title: "Midgen AI",
+					url: "https://www.midgenai.com/",
+				},
+			],
+		},
+	],
 }
 
 export default userData
