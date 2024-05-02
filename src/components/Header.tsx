@@ -13,7 +13,7 @@ const Header: FC = () => {
 					src={avatar}
 					width={200}
 					height={200}
-					className="rounded-full w-full border-2 border-light-card-border"
+					className="rounded-full w-full border-2 border-light-card-border dark:border-dark-card-border"
 					alt="Image"
 					priority
 				/>

@@ -4,7 +4,7 @@
 
 @layer base {
 	body {
-		@apply bg-light-bg text-light-text  max-w-5xl mx-auto px-2 sm:px-4 py-8;
+		@apply bg-light-bg text-light-text max-w-5xl mx-auto px-2 sm:px-4 py-8 dark:bg-dark-bg dark:text-dark-text;
 	}
 }
 

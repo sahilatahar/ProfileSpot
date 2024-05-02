@@ -11,7 +11,7 @@ const Links: FC = () => {
 			<div className="flex flex-col gap-4 py-4">
 				{links.map((c, i) => (
 					<div
-						className="bg-light-card border border-light-card-border p-4 sm:p-6 w-full rounded-xl space-y-2"
+						className="bg-light-card dark:bg-dark-card border border-light-card-border dark:border-dark-card-border p-4 sm:p-6 w-full rounded-xl space-y-2"
 						key={i}
 					>
 						<h2 className="text-xl font-bold pb-2 sm:pb-4 flex gap-2 items-center">
@@ -22,7 +22,7 @@ const Links: FC = () => {
 							<a
 								key={i}
 								href={link.url}
-								className="bg-light-card w-full rounded-xl flex gap-4 items-center font-semibold hover:underline text-sm sm:text-base"
+								className="w-full rounded-xl flex gap-4 items-center font-semibold hover:underline text-sm sm:text-base"
 								target="_blank"
 							>
 								<FiLink className="min-w-4 min-h-4" />

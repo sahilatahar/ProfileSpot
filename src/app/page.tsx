@@ -3,6 +3,7 @@ import Interest from "@/components/Interest"
 import Links from "@/components/Links"
 import Projects from "@/components/Projects"
 import Skills from "@/components/Skills"
+import ThemeButton from "@/components/ThemeButton"
 
 export default function Home() {
 	return (
@@ -12,6 +13,7 @@ export default function Home() {
 			<Skills />
 			<Projects />
 			<Links />
+			<ThemeButton />
 		</main>
 	)
 }

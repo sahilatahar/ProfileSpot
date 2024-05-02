@@ -11,7 +11,7 @@ const Skills: FC = () => {
 				{skills.map((skill, i) => (
 					<span
 						key={i}
-						className="bg-gray-200 py-2 px-4 rounded-full text-sm font-semibold"
+						className="bg-gray-200 dark:bg-dark-card py-2 px-4 rounded-full text-sm font-semibold"
 					>
 						{skill}
 					</span>

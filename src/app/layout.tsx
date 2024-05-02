@@ -5,7 +5,7 @@ import "./globals.css"
 const libreFranklin = Libre_Franklin({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-	title: "Profile",
+	title: "ProjectShot",
 	description: "A profile page",
 }
 

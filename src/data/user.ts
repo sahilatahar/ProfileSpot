@@ -1,4 +1,33 @@
-const userData = {
+interface UserData {
+	name: string
+	title: string
+	bio: string
+	avatar: string
+	interests: string[]
+	skills: string[]
+	projects: {
+		title: string
+		description: string
+		github_url: string
+		live_url: string
+	}[]
+	socials: {
+		gmail: string
+		twitter: string
+		linkedin: string
+		github: string
+		instagram: string
+	}
+	links: {
+		category: string
+		resources: {
+			title: string
+			url: string
+		}[]
+	}[]
+}
+
+const userData: UserData = {
 	name: "Sahil Atahar",
 	title: "Full Stack Web Developer",
 	bio: "Aspiring Full Stack Developer | Integrating Frontend Proficiency with Expanding Backend Knowledge | React JS, Node.js, Express | Seeking Opportunities",
