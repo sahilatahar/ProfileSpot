@@ -19,7 +19,7 @@ ProfileSpot is a single-page profile website that showcases information about yo
 ## How to Use
 
 1. Fork the repository to your GitHub account.
-2. Update the `data/user.ts` file with your information.
+2. Update the `src/data/user.ts` file with your information.
 3. Make sure to format your code according to the interface structure.
 4. Commit changes.
 5. Deploy to Vercel.
