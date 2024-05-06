@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 import Interest from "@/components/Interest"
 import Links from "@/components/Links"
@@ -13,6 +14,7 @@ export default function Home() {
 			<Skills />
 			<Projects />
 			<Links />
+			<Footer />
 			<ThemeButton />
 		</main>
 	)
