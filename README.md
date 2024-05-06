@@ -23,7 +23,7 @@ Check out the live preview [here](https://sahilatahar.vercel.app/).
    ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
    ![Framer Motion](https://img.shields.io/badge/Framer_Motion-ffffff?style=for-the-badge)
 
-## 🚀 How to Use
+## ⚙️ How to Use
 
 1. 🍴 Fork the repository to your GitHub account.
 2. 🛠️ Update the `src/data/user.ts` file with your information.
