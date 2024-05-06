@@ -30,7 +30,7 @@ interface UserData {
 const userData: UserData = {
 	name: "Sahil Atahar",
 	title: "Full Stack Web Developer",
-	bio: "Aspiring Full Stack Developer | Integrating Frontend Proficiency with Expanding Backend Knowledge | React JS, Node.js, Express | Seeking Opportunities",
+	bio: "I'm a Full Stack Developer looking for growth possibilities. I'm currently learning NextJS and TypeScript for smooth frontend-to-backend interaction.",
 	avatar: "https://github.com/sahilatahar.png",
 	interests: [
 		"Full Stack Development",
@@ -40,16 +40,17 @@ const userData: UserData = {
 		"Backend Development",
 	],
 	skills: [
-		"JavaScript",
 		"HTML",
-		"CSS/SCSS",
-		"Python",
+		"CSS",
+		"SCSS",
+		"JavaScript",
+		"TypeScript",
 		"React JS",
+		"Next JS",
 		"Tailwind CSS",
 		"Redux",
 		"Node.js",
 		"Express",
-		"MySQL",
 		"MongoDB",
 		"Firebase",
 		"Git & GitHub",
@@ -71,6 +72,13 @@ const userData: UserData = {
 				"A note-taking application with CRUD operations, authentication, profile management, multi-language support, and customizable themes.",
 			github_url: "https://github.com/sahilatahar/Real-Notes",
 			live_url: "https://realnotes.netlify.app/",
+		},
+		{
+			title: "MediaMaster",
+			description:
+				"MediaMaster is a versatile media recording application that allows users to capture screen activity, audio input, and more. Whether you're recording presentations, tutorials, or game play, MediaMaster provides intuitive features for seamless recording",
+			github_url: "https://github.com/sahilatahar/MediaMaster",
+			live_url: "https://media-master.vercel.app/",
 		},
 	],
 	socials: {
